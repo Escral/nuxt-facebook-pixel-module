@@ -1,6 +1,6 @@
 {
   "name": "nuxt-facebook-pixel-module",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Nuxt plugin for Facebook pixel",
   "license": "MIT",
   "contributors": [
@@ -15,7 +15,7 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/WilliamDASILVA/nuxt-facebook-pixel-module",
+  "repository": "https://github.com/Escral/nuxt-facebook-pixel-module",
   "publishConfig": {
     "access": "public"
   },
