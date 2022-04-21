@@ -47,7 +47,7 @@ interface NuxtFacebookPixel {
     init(): void;
     setPixelId(pixelId: string): void;
     track(event: null | FacebookEvent, parameters?: FacebookEventParameters): void;
-    query<T extends object>(key: string, value: string, parameters?: T): void;
+    query<T extends object>(key: string, value: string, parameters?: T, serverParameters?: T): void;
 }
 
 declare module 'vue/types/vue' {
